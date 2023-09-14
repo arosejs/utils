@@ -1,0 +1,36 @@
+{
+  "name": "@arosejs/utils",
+  "version": "0.0.5",
+  "description": "@arosejs/utils",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "scripts": {
+    "build": "father-build",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "ean",
+    "alita"
+  ],
+  "authors": [
+    "xiaohuoni <448627663@qq.com> (https://github.com/xiaohuoni)"
+  ],
+  "license": "MIT",
+  "bugs": "",
+  "homepage": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "father-build": "^1.19.5"
+  }
+}
